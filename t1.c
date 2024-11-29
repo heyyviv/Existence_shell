@@ -191,7 +191,7 @@ void execute(char** argv){
             }
             chdir(str);
             return ;
-        }
+    }
     //remaining command
     pid=fork();
     if(pid==0){
